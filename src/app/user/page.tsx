@@ -1,4 +1,6 @@
 'use client'
+export const dynamic = 'force-dynamic'
+
 import { useRouter } from 'next/navigation'
 
 export default function User({searchParams}: {searchParams: { id: string}}){

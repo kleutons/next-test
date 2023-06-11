@@ -1,13 +1,6 @@
 'use client'
 export const dynamic = 'force-dynamic'
-
-import { Metadata } from 'next';
 import { useRouter } from 'next/navigation'
-
-
-export const metadata: Metadata = {
-  title: 'Blog...',
-}
 
 export default function BlogId({ params }: { params: { blogId: string } }){
     const router = useRouter();

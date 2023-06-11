@@ -1,4 +1,5 @@
-
+'use client'
+export const dynamic = 'auto';
 import { useRouter } from 'next/navigation'
 
 export default function BlogId({ params }: { params: { blogId: string } }){

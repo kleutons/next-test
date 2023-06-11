@@ -10,9 +10,8 @@ export default function Home() {
       <p> Test Next </p>
       <button onClick={() => router.push('/user?id=01')}> Click Page User 01 </button>
       <button onClick={() => router.push('/user?id=02')}> Click Page User 02 </button>
-      <button onClick={() => router.push('/user?id=03')}> Click Page User 03 </button>
-      <button onClick={() => router.push('/user?id=04')}> Click Page User 04 </button>
-      <button onClick={() => router.push('/user?id=xxxx')}> Click Page User xxxx </button>
+      <button onClick={() => router.push('/blog/01')}> Click BLOG ID: 01 </button>
+      <button onClick={() => router.push('/blog/02')}> Click BLOG ID: 02 </button>
     </main>
   )
 }

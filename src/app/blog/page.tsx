@@ -7,8 +7,8 @@ export default function Blog(){
        <main className='main'>
        <h1> Page Blog </h1>
        <p> not found </p>
-       <button onClick={() => router.push('./01')}> id 01 </button>
-       <button onClick={() => router.push('./01')}> id 02 </button>
+       <button onClick={() => router.push('/blog/01')}> id 01 </button>
+       <button onClick={() => router.push('/blog/02')}> id 02 </button>
        <button onClick={() => router.push('/')}> Back </button>
      </main>
   )

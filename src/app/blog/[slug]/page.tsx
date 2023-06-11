@@ -10,7 +10,7 @@ export default function BlogSlug({ params }: { params: { slug: string } }){
     <main className='main'>
        <h1> Page Blog Slug Id </h1>
        <p> ID === {params.slug}</p>
-       <button onClick={() => router.push('/')}> Back </button>
+       <button onClick={() => router.push('/blog')}> Back </button>
      </main>
     )
 }

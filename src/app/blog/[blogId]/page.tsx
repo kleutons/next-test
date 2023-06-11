@@ -1,5 +1,5 @@
 'use client'
-export const dynamic = 'auto';
+export const dynamic = 'force-dynamic'
 import { useRouter } from 'next/navigation'
 
 export default function BlogId({ params }: { params: { blogId: string } }){
@@ -12,7 +12,7 @@ export default function BlogId({ params }: { params: { blogId: string } }){
         <>
          <h1> Page Blog Id </h1>
          <p> User Get Id == <span className='id'> {idUser} </span> </p>
-         <button onClick={() => router.push('./')}> Back </button>
+         <button onClick={() => router.push('/')}> Back </button>
         </>  
     )
 }

@@ -8,7 +8,7 @@ export default function BlogPage(){
         <>
          <h1> Post não enconrado  </h1>
 
-         <button onClick={() => router.push('./')}> Back </button>
+         <button onClick={() => router.push('/')}> Back </button>
         </>  
     )
 }
